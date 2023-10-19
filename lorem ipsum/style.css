@@ -1,0 +1,41 @@
+.container {
+    background-color: cornflowerblue;
+    padding: 20px;
+    margin: auto 0;
+    text-align: center;
+}
+
+.container h2 {
+    color: white;
+
+}
+
+label {
+    color: white;
+    font-size: 20px;
+}
+
+input {
+    font-size: 15px;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+    width: 25px;
+    transition: width 0.3sn ease;
+}
+
+button.btn {
+    font-size: 15px;
+    border-radius: 5px;
+    border: none;
+    background-color:cornsilk;
+    color: cornflowerblue;
+    padding: 5px;
+    margin-left: 5px;
+}
+
+.result {
+    color: cornsilk;
+    margin-top: 50px;
+    text-align: start;
+}
