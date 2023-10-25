@@ -1,0 +1,55 @@
+body {
+    background-color:green;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.first, .second, .third {
+    display: flex;
+    justify-content:space-between;
+    width: 500px;
+    padding: 20px;
+    margin-top: 15px;
+    background-color:white;
+    border-radius:10px 10px 0 0 ;
+}
+
+.fa-solid {
+    background-color:rgb(106, 138, 55);
+    color: white;
+    font-size: 1.5rem;
+    border: 1px solid rgb(87, 134, 55);   
+}
+
+.icon:hover {
+    transform: rotate(90deg);
+}
+
+.content {
+    display: none;
+}
+
+.active {
+    display: block;
+}
+
+.fa-regular {
+    background-color:rgb(106, 138, 55);
+    color: white;
+    font-size: 1.5rem;
+    border: 1px solid rgb(106, 138, 55); 
+}
+
+.content {
+    display: flex;
+    justify-content:space-between;
+    width: 500px;
+    padding: 20px;
+    background-color:white;
+    border-radius: 0 0 10px 10px;
+}
