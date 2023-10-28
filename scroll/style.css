@@ -1,0 +1,104 @@
+body {
+    background-color: rgb(241, 245, 248) ;
+    position: relative;
+    
+}
+
+
+.container-fluid .navbar-brand img{
+    height: 50px;
+}
+
+
+.collapse {
+    display: flex;
+    justify-content: end;
+}
+
+div.slide {
+    background-image: url(hero-bcg.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+
+div.slide h2 {
+    font-size: 60px;
+}
+
+div.slide p {
+    font-size: 18px;
+}
+
+div.slide button {
+    font-size: 18px;
+    border: 2px solid white;
+    color: white;
+    background:none;
+    padding: 8px 12px;
+}
+
+div.slide button:hover {
+    background-color: white;
+    color: cornflowerblue;
+}
+
+div.container {
+    height: 80vh;
+    text-align: center;
+}
+ div.container h2{
+    font-size: 40px;
+}
+
+div.container h2 span {
+    color:rgba(64,207,212,1);
+}
+
+section.our-services {
+    background-color: rgb(252, 252, 252);
+}
+
+div.scroll {
+    width: 2rem;
+    height: 2rem;
+    background-color: rgba(64,207,212,1);
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.25rem;
+    font-weight: 900;
+    cursor: pointer;
+    z-index: 999;
+    animation: bounce 2s ease-in-out infinite;
+}
+
+@keyframes bounce {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.5);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+
+  div.scroll a {
+    color: aliceblue;
+  }
