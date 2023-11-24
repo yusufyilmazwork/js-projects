@@ -1,0 +1,47 @@
+div.slider-container {
+    display: flex;
+    justify-content: center;
+}
+
+
+div.slide {
+    text-align: center;
+    margin: 30px 20px;
+    display: none;
+    color: cornflowerblue;
+    border: 5px solid cornflowerblue;
+    border-radius: 10px;
+    font-size: 20px;
+    width: 600px;
+    height: auto;
+    transition: all 0.25s ease-in-out;
+}
+
+
+div.slide img {
+    width: 600px;
+    border-bottom: 10px solid rgb(37, 185, 211);
+}
+
+div.slider-container div.slide.active {
+    display: block;
+}
+
+.btn-container {
+    text-align: center;
+}
+
+.btn-container button {
+    margin: 10px;
+    padding: 10px;
+    color: aliceblue;
+    background-color: black;
+    border: none;
+    border-radius: 10px;
+}
+
+.btn-container button:hover {
+    cursor: pointer;
+    background-color: gray;
+    color: white;
+}
