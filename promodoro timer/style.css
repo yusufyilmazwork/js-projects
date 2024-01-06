@@ -1,0 +1,31 @@
+.btn{
+    margin: 7px;
+    margin-top: 30px;
+}
+
+h1 {
+    display: inline-block;
+    margin: 20px;
+    color: cornflowerblue;
+}
+
+.time-input {
+    border-radius: 10px;
+    border-color: rgb(236, 230, 230);
+    font-size: 1rem;
+}    
+
+.counter {
+    font-size: 4rem;
+    color: cornflowerblue;
+    font-weight: 600;
+    margin: 10px;
+    margin-left: 60px;
+}
+.container {
+   background-color:darkgrey;
+   margin: 30px;
+   border-radius: 20px;
+   padding: 20px;
+   width: 600px;
+}
