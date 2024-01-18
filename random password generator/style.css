@@ -1,0 +1,80 @@
+div.password-container {
+    background-color: coral;
+    width:350px;
+    height: 193px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+
+}
+
+div.password-container input {
+    background-color: coral;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 7px 15px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    
+
+}
+
+div.password-container input::placeholder {
+    letter-spacing: 0px;
+  }
+
+div.password-container button {
+    background-color:rgb(46, 35, 31);
+    border: none;
+    border-radius: 10px;
+    padding: 10px 15px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+div.password-container button:hover{
+    color: coral;
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+div.password-container i {
+    color: rgb(126, 109, 109);
+    position: absolute;
+    right: 160px;
+    bottom: 70px;
+    cursor: pointer;
+    opacity: 0.3;
+}
+
+div.password-container i:hover {
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+.alert-container {
+    position: fixed;
+    width: 300px;
+    height: 50px;
+    background-color: lightgreen;
+    color: azure;
+    right: 20px;
+    top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    transition: 0.4s;
+  }
+  
+  .active.alert-container {
+    right: -300px;
+  }
