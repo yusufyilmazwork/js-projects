@@ -1,0 +1,15 @@
+.inputType{
+    border: none;
+    background-color: gray;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 15px 10px;
+    
+}
+
+
+::placeholder{
+    color: white;
+    opacity: 0.3;
+}

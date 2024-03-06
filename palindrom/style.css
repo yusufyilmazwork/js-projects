@@ -1,0 +1,35 @@
+
+.container{
+    background-color:cornflowerblue;
+    padding: 50px;
+}
+
+.container  h2{
+    text-align: center;
+    color:aliceblue;
+    width: 300px;
+}
+
+
+#text,
+#checkIn,
+#clear{
+    background-color: blueviolet;
+    margin: 20px 40px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    border: 3px solid violet;
+    padding: 8px;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 700;
+    outline: none;
+}
+
+#text{
+    display:block
+}
+
