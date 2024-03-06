@@ -1,0 +1,75 @@
+.container {
+    margin: 20px;
+    padding: 20px;
+    background-color: cornflowerblue;
+    border-radius: 20px;
+    width: 600px;
+}
+
+.container h1 {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+h2 {
+    color: aliceblue;
+    text-align: center;
+}
+.buttons{
+    text-align: center;
+}
+
+#rock {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 20px;
+    font-size: 2rem;
+    margin-right: 10px;
+
+}
+
+#paper {
+    background-color: greenyellow;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 20px;
+    font-size: 2rem;
+    margin-right: 10px;
+}
+
+#scissors {
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 20px;
+    font-size: 2rem;
+}
+
+.score {
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    
+}
+
+.score i {
+    margin: 20px;
+    font-size: 4rem;
+    
+}
+
+.score span {
+    margin: 20px;
+    font-size: 3.5rem;
+    
+}

@@ -1,0 +1,39 @@
+body {
+    background: linear-gradient(135deg,purple 20%,orange 80%);
+    background-repeat: no-repeat;
+}
+
+
+
+div.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    position: relative;
+    
+    
+} 
+
+
+.social-media {
+    border: none;
+    border-radius: 5px;
+    padding: 7px 30px;
+    opacity: 0.3;
+    
+    
+}
+
+option {
+    background-color: rgb(182, 161, 161);
+}
+
+.chevron {
+    position: absolute;
+    right: 320px;
+    opacity: 0.5;
+    
+    ;
+
+}

@@ -1,0 +1,50 @@
+.container {
+
+    background-color: rgb(219, 226, 198);
+    display: inline-block;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+#bill , #tip {
+    padding: 5px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: brown;
+    border: none;
+    color: white;
+    font-size: 20px;
+    
+    cursor: pointer;
+
+}
+
+#calculate {
+    padding: 8px 105px;
+    margin: 20px 10px;
+    border-radius: 10px;
+    background-color:rgb(52, 140, 199);
+    border: none;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+h1 {
+    margin-left: 40px;
+}
+
+#result {
+    margin-left: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    color: brown;
+    
+}
+
+h4 {
+    margin-bottom: 0;
+}
